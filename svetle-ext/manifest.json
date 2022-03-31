@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension with Svelte",
+  "version": "1.0.0",
+
+  "description": "Simple counter",
+  "icons": {
+    "16": "./src/images/svetle-16x16.png",
+    "32": "./src/images/svetle-32x32.png",
+    "48": "./src/images/svetle-48x48.png",
+    "128": "./src/images/svetle-128x128.png"
+  },
+
+  "action": {
+    "default_popup": "./public/index.html",
+    "default_icon": {
+      "16": "./src/images/svetle-16x16.png",
+      "32": "./src/images/svetle-32x32.png",
+      "48": "./src/images/svetle-48x48.png",
+      "128": "./src/images/svetle-128x128.png"
+    }
+  }
+}
